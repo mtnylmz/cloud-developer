@@ -13,6 +13,33 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
   // Use the body parser middleware for post requests
   app.use(bodyParser.json());
 
+  // http://localhost:8082/filteredimage?image_url=https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
+
+  app.get( "/filteredimage", async ( req, res ) => {
+
+    const {image_url} = req.query;
+
+    if (!image_url) {
+//      console.log("img URL yok");
+      return res.status(400).send("image_url is required");
+    }
+
+//    return res.status(422).send("image_url is OK");
+
+
+     const imgPath = await filterImageFromURL(image_url);
+
+     await res.status(200).sendFile(imgPath, {}, (err) => {
+        if (err) { return res.status(422).send("Not able to process the image"); }
+        // Deleting the used image file.  
+        //console.log("File",imgPath);
+        // created  under - > image-filter-starter-code\src\util\tmp\filtered.384.jpg
+        deleteLocalFiles([imgPath]);
+      })
+
+  });
+
+
   // @TODO1 IMPLEMENT A RESTFUL ENDPOINT
   // GET /filteredimage?image_url={{URL}}
   // endpoint to filter an image from a public url.
@@ -31,12 +58,14 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
   //! END @TODO1
   
+
   // Root Endpoint
   // Displays a simple message to the user
   app.get( "/", async ( req, res ) => {
     res.send("try GET /filteredimage?image_url={{}}")
   } );
   
+
 
   // Start the Server
   app.listen( port, () => {
