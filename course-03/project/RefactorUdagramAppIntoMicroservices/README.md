@@ -3,20 +3,19 @@ This repository is associated with Cloud Developer ND - Course 03 - Monolith to 
 
 # About project Submision 
 Note that I've used local installation; screenshots are availanle on Github
-
-https://github.com/mtnylmz/cloud-developer/tree/master/course-03/project/RefactorUdagramAppIntoMicroservices/Screenshots
-
 * Screenshots of TravisCI which shows the successful build and deploy steps
-  travis1.jpg travis2.jpg travis3.jpg  
+  - travis1.jpg travis2.jpg travis3.jpg  
 * Screenshots of kubectl get pod which shows all running containers
-  kubectl1.jpg kubectl2.jpg kubectl3.jpg
+  - kubectl1.jpg kubectl2.jpg kubectl3.jpg
 * Screenshot of the application
-  myUdagram.jpg
+  - myUdagram.jpg
 * The public GitHub repo and the docker hub images
+  - https://github.com/mtnylmz/cloud-developer/
+  - https://github.com/mtnylmz/cloud-developer/tree/master/course-03/project/RefactorUdagramAppIntoMicroservices
+  - https://hub.docker.com/u/mtnylmz
+*  Screenshots location:
+   - https://github.com/mtnylmz/cloud-developer/tree/master/course-03/project/RefactorUdagramAppIntoMicroservices/Screenshots
 
-https://github.com/mtnylmz/cloud-developer/
-https://github.com/mtnylmz/cloud-developer/tree/master/course-03/project/RefactorUdagramAppIntoMicroservices
-https://hub.docker.com/u/mtnylmz
 
 
 # About the Project - Udagram Image Filtering Microservice
