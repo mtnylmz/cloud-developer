@@ -2,7 +2,7 @@ Hello there, after pulling all my hairs I managed to complete the project but I 
 Note that I've used local installation; screenshots are availanle on Github
 https://github.com/mtnylmz/cloud-developer/tree/master/course-03/project/RefactorUdagramAppIntoMicroservices/Screenshots
 - Screenshots of TravisCI which shows the successful build and deploy steps
-  Travis1.jpg Travis2.jpg Travis3.jpg  
+  travis1.jpg travis2.jpg travis3.jpg  
 - Screenshots of kubectl get pod which shows all running containers
   kubectl1.jpg kubectl2.jpg kubectl3.jpg
 - Screenshot of the application
