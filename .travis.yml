@@ -17,4 +17,4 @@ before_install:
 
 install:
    - echo "Hello Metin"
-#  - docker-compose -f course-03/exercises/udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel 
+   - docker-compose -f course-03/project/RefactorUdagramAppIntoMicroservices/udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel 
