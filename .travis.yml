@@ -16,4 +16,5 @@ before_install:
   - sudo mv ./kubectl /usr/local/bin/kubectl
 
 install:
-echo "Hello Metin"
+   - echo "Hello Metin"
+#  - docker-compose -f course-03/exercises/udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel 
