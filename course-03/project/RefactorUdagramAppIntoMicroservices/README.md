@@ -1,17 +1,19 @@
 # Cloud Deeveloper 3. Project - Microservices
 This repository is associated with Cloud Developer ND - Course 03 - Monolith to Microservices. 
 
-# About projecy submition 
+# About project Submision 
 Note that I've used local installation; screenshots are availanle on Github
+
 https://github.com/mtnylmz/cloud-developer/tree/master/course-03/project/RefactorUdagramAppIntoMicroservices/Screenshots
-- Screenshots of TravisCI which shows the successful build and deploy steps
+
+* Screenshots of TravisCI which shows the successful build and deploy steps
   travis1.jpg travis2.jpg travis3.jpg  
-- Screenshots of kubectl get pod which shows all running containers
+* Screenshots of kubectl get pod which shows all running containers
   kubectl1.jpg kubectl2.jpg kubectl3.jpg
-- Screenshot of the application
+* Screenshot of the application
   myUdagram.jpg
-Along with 
-- The public GitHub repo and the docker hub images
+* The public GitHub repo and the docker hub images
+
 https://github.com/mtnylmz/cloud-developer/
 https://github.com/mtnylmz/cloud-developer/tree/master/course-03/project/RefactorUdagramAppIntoMicroservices
 https://hub.docker.com/u/mtnylmz
