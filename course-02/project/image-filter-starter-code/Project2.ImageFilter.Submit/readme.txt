@@ -9,3 +9,8 @@ http://image-filter-starter-code-metin-dev-dev.us-east-1.elasticbeanstalk.com/fi
 GitHUB
 
 https://github.com/mtnylmz/cloud-developer/tree/master/course-02/project/image-filter-starter-code
+
+
+deployment_screenshot
+
+https://github.com/mtnylmz/cloud-developer/tree/master/course-02/project/image-filter-starter-code/deployment_screenshots/deployment_screenshot.jpg
