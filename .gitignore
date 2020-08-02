@@ -35,3 +35,7 @@ UserInterfaceState.xcuserstate
 node_modules
 venv/
 .vscode
+serverless-state.json
+cloudformation-template-create-stack.json
+m10-udagram-app.zip
+http-metrics.zip
